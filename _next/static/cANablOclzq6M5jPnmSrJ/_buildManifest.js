@@ -1,7 +1,12 @@
 self.__BUILD_MANIFEST = {
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/TYNATO//_next/:path+",
+        "destination": "/TYNATO/_next/:path+"
+      }
+    ],
     "fallback": []
   },
   "sortedPages": [
